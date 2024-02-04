@@ -1,0 +1,2 @@
+magangros
+-DCATKIN_DEVEL_PREFIX=/home/hamasfa/Magang3_ws/devel -DCMAKE_INSTALL_PREFIX=/home/hamasfa/Magang3_ws/install -G Unix Makefiles

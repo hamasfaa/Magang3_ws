@@ -1,0 +1,5 @@
+<launch>
+    <node name="turtle" pkg="turtlesim" type="turtlesim_node" output="screen"/>
+    <node name="primary" pkg="magangros" type="primary_node" output="screen"/>
+    <node name="secondary" pkg="magangros" type="secondary_node" output="screen"/>
+</launch>
