@@ -51,7 +51,6 @@ find_package(OpenCV REQUIRED)
 add_message_files(
   FILES
   PosisiTurtle.msg
-  PosisiTurtleAwal.msg
 )
 
 ## Generate services in the 'srv' folder

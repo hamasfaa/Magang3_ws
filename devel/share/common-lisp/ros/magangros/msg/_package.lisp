@@ -3,7 +3,5 @@
   (:export
    "<POSISITURTLE>"
    "POSISITURTLE"
-   "<POSISITURTLEAWAL>"
-   "POSISITURTLEAWAL"
   ))
 

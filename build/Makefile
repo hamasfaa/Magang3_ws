@@ -558,19 +558,6 @@ std_msgs_generate_messages_eus/fast:
 .PHONY : std_msgs_generate_messages_eus/fast
 
 #=============================================================================
-# Target rules for targets named _magangros_generate_messages_check_deps_PosisiTurtleAwal
-
-# Build rule for target.
-_magangros_generate_messages_check_deps_PosisiTurtleAwal: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _magangros_generate_messages_check_deps_PosisiTurtleAwal
-.PHONY : _magangros_generate_messages_check_deps_PosisiTurtleAwal
-
-# fast build rule for target.
-_magangros_generate_messages_check_deps_PosisiTurtleAwal/fast:
-	$(MAKE) -f magangros/CMakeFiles/_magangros_generate_messages_check_deps_PosisiTurtleAwal.dir/build.make magangros/CMakeFiles/_magangros_generate_messages_check_deps_PosisiTurtleAwal.dir/build
-.PHONY : _magangros_generate_messages_check_deps_PosisiTurtleAwal/fast
-
-#=============================================================================
 # Target rules for targets named geometry_msgs_generate_messages_lisp
 
 # Build rule for target.
@@ -912,7 +899,6 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_cpp"
 	@echo "... roscpp_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_eus"
-	@echo "... _magangros_generate_messages_check_deps_PosisiTurtleAwal"
 	@echo "... geometry_msgs_generate_messages_lisp"
 	@echo "... roscpp_generate_messages_py"
 	@echo "... std_msgs_generate_messages_lisp"

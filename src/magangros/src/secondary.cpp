@@ -11,7 +11,6 @@ std::vector<Vec2f> posisiTurtle;
 
 void callback(const magangros::PosisiTurtle::ConstPtr& posisi) {
     posisiTurtle.push_back(Vec2f(posisi->x, posisi->y));
-    ROS_INFO("Posisi turtle akhir diterima: x=%f, y=%f", posisi->x, posisi->y);
 }
 
 int main(int argc, char **argv) {

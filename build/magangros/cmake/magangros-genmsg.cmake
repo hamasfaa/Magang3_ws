@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.cmake.em
 
-message(STATUS "magangros: 2 messages, 0 services")
+message(STATUS "magangros: 1 messages, 0 services")
 
 set(MSG_I_FLAGS "-Imagangros:/home/hamasfa/Magang3_ws/src/magangros/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg")
 
@@ -22,11 +22,6 @@ add_custom_target(_magangros_generate_messages_check_deps_${_filename}
   COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "magangros" "/home/hamasfa/Magang3_ws/src/magangros/msg/PosisiTurtle.msg" ""
 )
 
-get_filename_component(_filename "/home/hamasfa/Magang3_ws/src/magangros/msg/PosisiTurtleAwal.msg" NAME_WE)
-add_custom_target(_magangros_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "magangros" "/home/hamasfa/Magang3_ws/src/magangros/msg/PosisiTurtleAwal.msg" ""
-)
-
 #
 #  langs = gencpp;geneus;genlisp;gennodejs;genpy
 #
@@ -35,12 +30,6 @@ add_custom_target(_magangros_generate_messages_check_deps_${_filename}
 ### Generating Messages
 _generate_msg_cpp(magangros
   "/home/hamasfa/Magang3_ws/src/magangros/msg/PosisiTurtle.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/magangros
-)
-_generate_msg_cpp(magangros
-  "/home/hamasfa/Magang3_ws/src/magangros/msg/PosisiTurtleAwal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/magangros
@@ -62,8 +51,6 @@ add_dependencies(magangros_generate_messages magangros_generate_messages_cpp)
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/hamasfa/Magang3_ws/src/magangros/msg/PosisiTurtle.msg" NAME_WE)
 add_dependencies(magangros_generate_messages_cpp _magangros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hamasfa/Magang3_ws/src/magangros/msg/PosisiTurtleAwal.msg" NAME_WE)
-add_dependencies(magangros_generate_messages_cpp _magangros_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
 add_custom_target(magangros_gencpp)
@@ -76,12 +63,6 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS magangros_generate_messages_cpp)
 ### Generating Messages
 _generate_msg_eus(magangros
   "/home/hamasfa/Magang3_ws/src/magangros/msg/PosisiTurtle.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/magangros
-)
-_generate_msg_eus(magangros
-  "/home/hamasfa/Magang3_ws/src/magangros/msg/PosisiTurtleAwal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/magangros
@@ -103,8 +84,6 @@ add_dependencies(magangros_generate_messages magangros_generate_messages_eus)
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/hamasfa/Magang3_ws/src/magangros/msg/PosisiTurtle.msg" NAME_WE)
 add_dependencies(magangros_generate_messages_eus _magangros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hamasfa/Magang3_ws/src/magangros/msg/PosisiTurtleAwal.msg" NAME_WE)
-add_dependencies(magangros_generate_messages_eus _magangros_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
 add_custom_target(magangros_geneus)
@@ -117,12 +96,6 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS magangros_generate_messages_eus)
 ### Generating Messages
 _generate_msg_lisp(magangros
   "/home/hamasfa/Magang3_ws/src/magangros/msg/PosisiTurtle.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/magangros
-)
-_generate_msg_lisp(magangros
-  "/home/hamasfa/Magang3_ws/src/magangros/msg/PosisiTurtleAwal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/magangros
@@ -144,8 +117,6 @@ add_dependencies(magangros_generate_messages magangros_generate_messages_lisp)
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/hamasfa/Magang3_ws/src/magangros/msg/PosisiTurtle.msg" NAME_WE)
 add_dependencies(magangros_generate_messages_lisp _magangros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hamasfa/Magang3_ws/src/magangros/msg/PosisiTurtleAwal.msg" NAME_WE)
-add_dependencies(magangros_generate_messages_lisp _magangros_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
 add_custom_target(magangros_genlisp)
@@ -158,12 +129,6 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS magangros_generate_messages_lisp)
 ### Generating Messages
 _generate_msg_nodejs(magangros
   "/home/hamasfa/Magang3_ws/src/magangros/msg/PosisiTurtle.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/magangros
-)
-_generate_msg_nodejs(magangros
-  "/home/hamasfa/Magang3_ws/src/magangros/msg/PosisiTurtleAwal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/magangros
@@ -185,8 +150,6 @@ add_dependencies(magangros_generate_messages magangros_generate_messages_nodejs)
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/hamasfa/Magang3_ws/src/magangros/msg/PosisiTurtle.msg" NAME_WE)
 add_dependencies(magangros_generate_messages_nodejs _magangros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hamasfa/Magang3_ws/src/magangros/msg/PosisiTurtleAwal.msg" NAME_WE)
-add_dependencies(magangros_generate_messages_nodejs _magangros_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
 add_custom_target(magangros_gennodejs)
@@ -199,12 +162,6 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS magangros_generate_messages_nodejs)
 ### Generating Messages
 _generate_msg_py(magangros
   "/home/hamasfa/Magang3_ws/src/magangros/msg/PosisiTurtle.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/magangros
-)
-_generate_msg_py(magangros
-  "/home/hamasfa/Magang3_ws/src/magangros/msg/PosisiTurtleAwal.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/magangros
@@ -225,8 +182,6 @@ add_dependencies(magangros_generate_messages magangros_generate_messages_py)
 
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/hamasfa/Magang3_ws/src/magangros/msg/PosisiTurtle.msg" NAME_WE)
-add_dependencies(magangros_generate_messages_py _magangros_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/hamasfa/Magang3_ws/src/magangros/msg/PosisiTurtleAwal.msg" NAME_WE)
 add_dependencies(magangros_generate_messages_py _magangros_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

@@ -169,7 +169,6 @@ magangros/clean: magangros/CMakeFiles/std_srvs_generate_messages_py.dir/clean
 magangros/clean: magangros/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
 magangros/clean: magangros/CMakeFiles/roscpp_generate_messages_nodejs.dir/clean
 magangros/clean: magangros/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
-magangros/clean: magangros/CMakeFiles/_magangros_generate_messages_check_deps_PosisiTurtleAwal.dir/clean
 magangros/clean: magangros/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
 magangros/clean: magangros/CMakeFiles/roscpp_generate_messages_py.dir/clean
 magangros/clean: magangros/CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
@@ -452,7 +451,7 @@ magangros/CMakeFiles/magangros_genpy.dir/all: magangros/CMakeFiles/magangros_gen
 
 # Build rule for subdir invocation for target.
 magangros/CMakeFiles/magangros_genpy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hamasfa/Magang3_ws/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hamasfa/Magang3_ws/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 magangros/CMakeFiles/magangros_genpy.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hamasfa/Magang3_ws/build/CMakeFiles 0
 .PHONY : magangros/CMakeFiles/magangros_genpy.dir/rule
@@ -474,7 +473,7 @@ magangros/CMakeFiles/magangros_genpy.dir/clean:
 magangros/CMakeFiles/secondary_node.dir/all:
 	$(MAKE) -f magangros/CMakeFiles/secondary_node.dir/build.make magangros/CMakeFiles/secondary_node.dir/depend
 	$(MAKE) -f magangros/CMakeFiles/secondary_node.dir/build.make magangros/CMakeFiles/secondary_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hamasfa/Magang3_ws/build/CMakeFiles --progress-num=23,24 "Built target secondary_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hamasfa/Magang3_ws/build/CMakeFiles --progress-num=18,19 "Built target secondary_node"
 .PHONY : magangros/CMakeFiles/secondary_node.dir/all
 
 # Build rule for subdir invocation for target.
@@ -499,16 +498,15 @@ magangros/CMakeFiles/secondary_node.dir/clean:
 
 # All Build rule for target.
 magangros/CMakeFiles/magangros_generate_messages_nodejs.dir/all: magangros/CMakeFiles/_magangros_generate_messages_check_deps_PosisiTurtle.dir/all
-magangros/CMakeFiles/magangros_generate_messages_nodejs.dir/all: magangros/CMakeFiles/_magangros_generate_messages_check_deps_PosisiTurtleAwal.dir/all
 magangros/CMakeFiles/magangros_generate_messages_nodejs.dir/all: magangros/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 	$(MAKE) -f magangros/CMakeFiles/magangros_generate_messages_nodejs.dir/build.make magangros/CMakeFiles/magangros_generate_messages_nodejs.dir/depend
 	$(MAKE) -f magangros/CMakeFiles/magangros_generate_messages_nodejs.dir/build.make magangros/CMakeFiles/magangros_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hamasfa/Magang3_ws/build/CMakeFiles --progress-num=16,17 "Built target magangros_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hamasfa/Magang3_ws/build/CMakeFiles --progress-num=13 "Built target magangros_generate_messages_nodejs"
 .PHONY : magangros/CMakeFiles/magangros_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 magangros/CMakeFiles/magangros_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hamasfa/Magang3_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hamasfa/Magang3_ws/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 magangros/CMakeFiles/magangros_generate_messages_nodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hamasfa/Magang3_ws/build/CMakeFiles 0
 .PHONY : magangros/CMakeFiles/magangros_generate_messages_nodejs.dir/rule
@@ -535,7 +533,7 @@ magangros/CMakeFiles/magangros_geneus.dir/all: magangros/CMakeFiles/magangros_ge
 
 # Build rule for subdir invocation for target.
 magangros/CMakeFiles/magangros_geneus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hamasfa/Magang3_ws/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hamasfa/Magang3_ws/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 magangros/CMakeFiles/magangros_geneus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hamasfa/Magang3_ws/build/CMakeFiles 0
 .PHONY : magangros/CMakeFiles/magangros_geneus.dir/rule
@@ -556,15 +554,14 @@ magangros/CMakeFiles/magangros_geneus.dir/clean:
 # All Build rule for target.
 magangros/CMakeFiles/magangros_generate_messages_eus.dir/all: magangros/CMakeFiles/_magangros_generate_messages_check_deps_PosisiTurtle.dir/all
 magangros/CMakeFiles/magangros_generate_messages_eus.dir/all: magangros/CMakeFiles/std_msgs_generate_messages_eus.dir/all
-magangros/CMakeFiles/magangros_generate_messages_eus.dir/all: magangros/CMakeFiles/_magangros_generate_messages_check_deps_PosisiTurtleAwal.dir/all
 	$(MAKE) -f magangros/CMakeFiles/magangros_generate_messages_eus.dir/build.make magangros/CMakeFiles/magangros_generate_messages_eus.dir/depend
 	$(MAKE) -f magangros/CMakeFiles/magangros_generate_messages_eus.dir/build.make magangros/CMakeFiles/magangros_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hamasfa/Magang3_ws/build/CMakeFiles --progress-num=11,12,13 "Built target magangros_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hamasfa/Magang3_ws/build/CMakeFiles --progress-num=10,11 "Built target magangros_generate_messages_eus"
 .PHONY : magangros/CMakeFiles/magangros_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 magangros/CMakeFiles/magangros_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hamasfa/Magang3_ws/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hamasfa/Magang3_ws/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 magangros/CMakeFiles/magangros_generate_messages_eus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hamasfa/Magang3_ws/build/CMakeFiles 0
 .PHONY : magangros/CMakeFiles/magangros_generate_messages_eus.dir/rule
@@ -591,7 +588,7 @@ magangros/CMakeFiles/magangros_gencpp.dir/all: magangros/CMakeFiles/magangros_ge
 
 # Build rule for subdir invocation for target.
 magangros/CMakeFiles/magangros_gencpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hamasfa/Magang3_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hamasfa/Magang3_ws/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 magangros/CMakeFiles/magangros_gencpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hamasfa/Magang3_ws/build/CMakeFiles 0
 .PHONY : magangros/CMakeFiles/magangros_gencpp.dir/rule
@@ -611,16 +608,15 @@ magangros/CMakeFiles/magangros_gencpp.dir/clean:
 
 # All Build rule for target.
 magangros/CMakeFiles/magangros_generate_messages_py.dir/all: magangros/CMakeFiles/_magangros_generate_messages_check_deps_PosisiTurtle.dir/all
-magangros/CMakeFiles/magangros_generate_messages_py.dir/all: magangros/CMakeFiles/_magangros_generate_messages_check_deps_PosisiTurtleAwal.dir/all
 magangros/CMakeFiles/magangros_generate_messages_py.dir/all: magangros/CMakeFiles/std_msgs_generate_messages_py.dir/all
 	$(MAKE) -f magangros/CMakeFiles/magangros_generate_messages_py.dir/build.make magangros/CMakeFiles/magangros_generate_messages_py.dir/depend
 	$(MAKE) -f magangros/CMakeFiles/magangros_generate_messages_py.dir/build.make magangros/CMakeFiles/magangros_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hamasfa/Magang3_ws/build/CMakeFiles --progress-num=18,19,20 "Built target magangros_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hamasfa/Magang3_ws/build/CMakeFiles --progress-num=14,15 "Built target magangros_generate_messages_py"
 .PHONY : magangros/CMakeFiles/magangros_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 magangros/CMakeFiles/magangros_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hamasfa/Magang3_ws/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hamasfa/Magang3_ws/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 magangros/CMakeFiles/magangros_generate_messages_py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hamasfa/Magang3_ws/build/CMakeFiles 0
 .PHONY : magangros/CMakeFiles/magangros_generate_messages_py.dir/rule
@@ -647,7 +643,7 @@ magangros/CMakeFiles/magangros_genlisp.dir/all: magangros/CMakeFiles/magangros_g
 
 # Build rule for subdir invocation for target.
 magangros/CMakeFiles/magangros_genlisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hamasfa/Magang3_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hamasfa/Magang3_ws/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 magangros/CMakeFiles/magangros_genlisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hamasfa/Magang3_ws/build/CMakeFiles 0
 .PHONY : magangros/CMakeFiles/magangros_genlisp.dir/rule
@@ -667,16 +663,15 @@ magangros/CMakeFiles/magangros_genlisp.dir/clean:
 
 # All Build rule for target.
 magangros/CMakeFiles/magangros_generate_messages_cpp.dir/all: magangros/CMakeFiles/_magangros_generate_messages_check_deps_PosisiTurtle.dir/all
-magangros/CMakeFiles/magangros_generate_messages_cpp.dir/all: magangros/CMakeFiles/_magangros_generate_messages_check_deps_PosisiTurtleAwal.dir/all
 magangros/CMakeFiles/magangros_generate_messages_cpp.dir/all: magangros/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
 	$(MAKE) -f magangros/CMakeFiles/magangros_generate_messages_cpp.dir/build.make magangros/CMakeFiles/magangros_generate_messages_cpp.dir/depend
 	$(MAKE) -f magangros/CMakeFiles/magangros_generate_messages_cpp.dir/build.make magangros/CMakeFiles/magangros_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hamasfa/Magang3_ws/build/CMakeFiles --progress-num=9,10 "Built target magangros_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hamasfa/Magang3_ws/build/CMakeFiles --progress-num=9 "Built target magangros_generate_messages_cpp"
 .PHONY : magangros/CMakeFiles/magangros_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 magangros/CMakeFiles/magangros_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hamasfa/Magang3_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hamasfa/Magang3_ws/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 magangros/CMakeFiles/magangros_generate_messages_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hamasfa/Magang3_ws/build/CMakeFiles 0
 .PHONY : magangros/CMakeFiles/magangros_generate_messages_cpp.dir/rule
@@ -707,7 +702,7 @@ magangros/CMakeFiles/magangros_generate_messages.dir/all: magangros/CMakeFiles/m
 
 # Build rule for subdir invocation for target.
 magangros/CMakeFiles/magangros_generate_messages.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hamasfa/Magang3_ws/build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hamasfa/Magang3_ws/build/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 magangros/CMakeFiles/magangros_generate_messages.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hamasfa/Magang3_ws/build/CMakeFiles 0
 .PHONY : magangros/CMakeFiles/magangros_generate_messages.dir/rule
@@ -1018,33 +1013,6 @@ std_msgs_generate_messages_eus: magangros/CMakeFiles/std_msgs_generate_messages_
 magangros/CMakeFiles/std_msgs_generate_messages_eus.dir/clean:
 	$(MAKE) -f magangros/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make magangros/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
 .PHONY : magangros/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
-
-#=============================================================================
-# Target rules for target magangros/CMakeFiles/_magangros_generate_messages_check_deps_PosisiTurtleAwal.dir
-
-# All Build rule for target.
-magangros/CMakeFiles/_magangros_generate_messages_check_deps_PosisiTurtleAwal.dir/all:
-	$(MAKE) -f magangros/CMakeFiles/_magangros_generate_messages_check_deps_PosisiTurtleAwal.dir/build.make magangros/CMakeFiles/_magangros_generate_messages_check_deps_PosisiTurtleAwal.dir/depend
-	$(MAKE) -f magangros/CMakeFiles/_magangros_generate_messages_check_deps_PosisiTurtleAwal.dir/build.make magangros/CMakeFiles/_magangros_generate_messages_check_deps_PosisiTurtleAwal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hamasfa/Magang3_ws/build/CMakeFiles --progress-num= "Built target _magangros_generate_messages_check_deps_PosisiTurtleAwal"
-.PHONY : magangros/CMakeFiles/_magangros_generate_messages_check_deps_PosisiTurtleAwal.dir/all
-
-# Build rule for subdir invocation for target.
-magangros/CMakeFiles/_magangros_generate_messages_check_deps_PosisiTurtleAwal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hamasfa/Magang3_ws/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 magangros/CMakeFiles/_magangros_generate_messages_check_deps_PosisiTurtleAwal.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hamasfa/Magang3_ws/build/CMakeFiles 0
-.PHONY : magangros/CMakeFiles/_magangros_generate_messages_check_deps_PosisiTurtleAwal.dir/rule
-
-# Convenience name for target.
-_magangros_generate_messages_check_deps_PosisiTurtleAwal: magangros/CMakeFiles/_magangros_generate_messages_check_deps_PosisiTurtleAwal.dir/rule
-
-.PHONY : _magangros_generate_messages_check_deps_PosisiTurtleAwal
-
-# clean rule for target.
-magangros/CMakeFiles/_magangros_generate_messages_check_deps_PosisiTurtleAwal.dir/clean:
-	$(MAKE) -f magangros/CMakeFiles/_magangros_generate_messages_check_deps_PosisiTurtleAwal.dir/build.make magangros/CMakeFiles/_magangros_generate_messages_check_deps_PosisiTurtleAwal.dir/clean
-.PHONY : magangros/CMakeFiles/_magangros_generate_messages_check_deps_PosisiTurtleAwal.dir/clean
 
 #=============================================================================
 # Target rules for target magangros/CMakeFiles/geometry_msgs_generate_messages_lisp.dir
@@ -1429,16 +1397,15 @@ magangros/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean:
 
 # All Build rule for target.
 magangros/CMakeFiles/magangros_generate_messages_lisp.dir/all: magangros/CMakeFiles/_magangros_generate_messages_check_deps_PosisiTurtle.dir/all
-magangros/CMakeFiles/magangros_generate_messages_lisp.dir/all: magangros/CMakeFiles/_magangros_generate_messages_check_deps_PosisiTurtleAwal.dir/all
 magangros/CMakeFiles/magangros_generate_messages_lisp.dir/all: magangros/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 	$(MAKE) -f magangros/CMakeFiles/magangros_generate_messages_lisp.dir/build.make magangros/CMakeFiles/magangros_generate_messages_lisp.dir/depend
 	$(MAKE) -f magangros/CMakeFiles/magangros_generate_messages_lisp.dir/build.make magangros/CMakeFiles/magangros_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hamasfa/Magang3_ws/build/CMakeFiles --progress-num=14,15 "Built target magangros_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hamasfa/Magang3_ws/build/CMakeFiles --progress-num=12 "Built target magangros_generate_messages_lisp"
 .PHONY : magangros/CMakeFiles/magangros_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 magangros/CMakeFiles/magangros_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hamasfa/Magang3_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hamasfa/Magang3_ws/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 magangros/CMakeFiles/magangros_generate_messages_lisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hamasfa/Magang3_ws/build/CMakeFiles 0
 .PHONY : magangros/CMakeFiles/magangros_generate_messages_lisp.dir/rule
@@ -1514,7 +1481,7 @@ magangros/CMakeFiles/turtlesim_generate_messages_lisp.dir/clean:
 magangros/CMakeFiles/primary_node.dir/all:
 	$(MAKE) -f magangros/CMakeFiles/primary_node.dir/build.make magangros/CMakeFiles/primary_node.dir/depend
 	$(MAKE) -f magangros/CMakeFiles/primary_node.dir/build.make magangros/CMakeFiles/primary_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hamasfa/Magang3_ws/build/CMakeFiles --progress-num=21,22 "Built target primary_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hamasfa/Magang3_ws/build/CMakeFiles --progress-num=16,17 "Built target primary_node"
 .PHONY : magangros/CMakeFiles/primary_node.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1600,7 +1567,7 @@ magangros/CMakeFiles/magangros_gennodejs.dir/all: magangros/CMakeFiles/magangros
 
 # Build rule for subdir invocation for target.
 magangros/CMakeFiles/magangros_gennodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hamasfa/Magang3_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hamasfa/Magang3_ws/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 magangros/CMakeFiles/magangros_gennodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hamasfa/Magang3_ws/build/CMakeFiles 0
 .PHONY : magangros/CMakeFiles/magangros_gennodejs.dir/rule

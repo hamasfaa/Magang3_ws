@@ -54,7 +54,6 @@ CMAKE_BINARY_DIR = /home/hamasfa/Magang3_ws/build
 include magangros/CMakeFiles/magangros_generate_messages_nodejs.dir/progress.make
 
 magangros/CMakeFiles/magangros_generate_messages_nodejs: /home/hamasfa/Magang3_ws/devel/share/gennodejs/ros/magangros/msg/PosisiTurtle.js
-magangros/CMakeFiles/magangros_generate_messages_nodejs: /home/hamasfa/Magang3_ws/devel/share/gennodejs/ros/magangros/msg/PosisiTurtleAwal.js
 
 
 /home/hamasfa/Magang3_ws/devel/share/gennodejs/ros/magangros/msg/PosisiTurtle.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
@@ -62,14 +61,8 @@ magangros/CMakeFiles/magangros_generate_messages_nodejs: /home/hamasfa/Magang3_w
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hamasfa/Magang3_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from magangros/PosisiTurtle.msg"
 	cd /home/hamasfa/Magang3_ws/build/magangros && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/hamasfa/Magang3_ws/src/magangros/msg/PosisiTurtle.msg -Imagangros:/home/hamasfa/Magang3_ws/src/magangros/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p magangros -o /home/hamasfa/Magang3_ws/devel/share/gennodejs/ros/magangros/msg
 
-/home/hamasfa/Magang3_ws/devel/share/gennodejs/ros/magangros/msg/PosisiTurtleAwal.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/hamasfa/Magang3_ws/devel/share/gennodejs/ros/magangros/msg/PosisiTurtleAwal.js: /home/hamasfa/Magang3_ws/src/magangros/msg/PosisiTurtleAwal.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hamasfa/Magang3_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from magangros/PosisiTurtleAwal.msg"
-	cd /home/hamasfa/Magang3_ws/build/magangros && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/hamasfa/Magang3_ws/src/magangros/msg/PosisiTurtleAwal.msg -Imagangros:/home/hamasfa/Magang3_ws/src/magangros/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p magangros -o /home/hamasfa/Magang3_ws/devel/share/gennodejs/ros/magangros/msg
-
 magangros_generate_messages_nodejs: magangros/CMakeFiles/magangros_generate_messages_nodejs
 magangros_generate_messages_nodejs: /home/hamasfa/Magang3_ws/devel/share/gennodejs/ros/magangros/msg/PosisiTurtle.js
-magangros_generate_messages_nodejs: /home/hamasfa/Magang3_ws/devel/share/gennodejs/ros/magangros/msg/PosisiTurtleAwal.js
 magangros_generate_messages_nodejs: magangros/CMakeFiles/magangros_generate_messages_nodejs.dir/build.make
 
 .PHONY : magangros_generate_messages_nodejs

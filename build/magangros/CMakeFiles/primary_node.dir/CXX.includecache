@@ -33,6 +33,12 @@ magangros/PosisiTurtle.h
 /home/hamasfa/Magang3_ws/src/magangros/src/magangros/PosisiTurtle.h
 iostream
 -
+termios.h
+-
+unistd.h
+-
+stdio.h
+-
 
 /opt/ros/noetic/include/geometry_msgs/Twist.h
 string

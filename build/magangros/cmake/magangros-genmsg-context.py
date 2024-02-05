@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
-messages_str = "/home/hamasfa/Magang3_ws/src/magangros/msg/PosisiTurtle.msg;/home/hamasfa/Magang3_ws/src/magangros/msg/PosisiTurtleAwal.msg"
+messages_str = "/home/hamasfa/Magang3_ws/src/magangros/msg/PosisiTurtle.msg"
 services_str = ""
 pkg_name = "magangros"
 dependencies_str = "std_msgs"

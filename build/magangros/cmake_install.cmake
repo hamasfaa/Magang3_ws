@@ -38,10 +38,7 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/magangros/msg" TYPE FILE FILES
-    "/home/hamasfa/Magang3_ws/src/magangros/msg/PosisiTurtle.msg"
-    "/home/hamasfa/Magang3_ws/src/magangros/msg/PosisiTurtleAwal.msg"
-    )
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/magangros/msg" TYPE FILE FILES "/home/hamasfa/Magang3_ws/src/magangros/msg/PosisiTurtle.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

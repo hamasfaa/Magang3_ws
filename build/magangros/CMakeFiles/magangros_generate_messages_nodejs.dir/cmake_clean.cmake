@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "/home/hamasfa/Magang3_ws/devel/share/gennodejs/ros/magangros/msg/PosisiTurtle.js"
-  "/home/hamasfa/Magang3_ws/devel/share/gennodejs/ros/magangros/msg/PosisiTurtleAwal.js"
   "CMakeFiles/magangros_generate_messages_nodejs"
 )
 

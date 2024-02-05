@@ -54,7 +54,6 @@ CMAKE_BINARY_DIR = /home/hamasfa/Magang3_ws/build
 include magangros/CMakeFiles/magangros_generate_messages_py.dir/progress.make
 
 magangros/CMakeFiles/magangros_generate_messages_py: /home/hamasfa/Magang3_ws/devel/lib/python3/dist-packages/magangros/msg/_PosisiTurtle.py
-magangros/CMakeFiles/magangros_generate_messages_py: /home/hamasfa/Magang3_ws/devel/lib/python3/dist-packages/magangros/msg/_PosisiTurtleAwal.py
 magangros/CMakeFiles/magangros_generate_messages_py: /home/hamasfa/Magang3_ws/devel/lib/python3/dist-packages/magangros/msg/__init__.py
 
 
@@ -63,20 +62,13 @@ magangros/CMakeFiles/magangros_generate_messages_py: /home/hamasfa/Magang3_ws/de
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hamasfa/Magang3_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG magangros/PosisiTurtle"
 	cd /home/hamasfa/Magang3_ws/build/magangros && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/hamasfa/Magang3_ws/src/magangros/msg/PosisiTurtle.msg -Imagangros:/home/hamasfa/Magang3_ws/src/magangros/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p magangros -o /home/hamasfa/Magang3_ws/devel/lib/python3/dist-packages/magangros/msg
 
-/home/hamasfa/Magang3_ws/devel/lib/python3/dist-packages/magangros/msg/_PosisiTurtleAwal.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/hamasfa/Magang3_ws/devel/lib/python3/dist-packages/magangros/msg/_PosisiTurtleAwal.py: /home/hamasfa/Magang3_ws/src/magangros/msg/PosisiTurtleAwal.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hamasfa/Magang3_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG magangros/PosisiTurtleAwal"
-	cd /home/hamasfa/Magang3_ws/build/magangros && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/hamasfa/Magang3_ws/src/magangros/msg/PosisiTurtleAwal.msg -Imagangros:/home/hamasfa/Magang3_ws/src/magangros/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p magangros -o /home/hamasfa/Magang3_ws/devel/lib/python3/dist-packages/magangros/msg
-
 /home/hamasfa/Magang3_ws/devel/lib/python3/dist-packages/magangros/msg/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/hamasfa/Magang3_ws/devel/lib/python3/dist-packages/magangros/msg/__init__.py: /home/hamasfa/Magang3_ws/devel/lib/python3/dist-packages/magangros/msg/_PosisiTurtle.py
-/home/hamasfa/Magang3_ws/devel/lib/python3/dist-packages/magangros/msg/__init__.py: /home/hamasfa/Magang3_ws/devel/lib/python3/dist-packages/magangros/msg/_PosisiTurtleAwal.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hamasfa/Magang3_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python msg __init__.py for magangros"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hamasfa/Magang3_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python msg __init__.py for magangros"
 	cd /home/hamasfa/Magang3_ws/build/magangros && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/hamasfa/Magang3_ws/devel/lib/python3/dist-packages/magangros/msg --initpy
 
 magangros_generate_messages_py: magangros/CMakeFiles/magangros_generate_messages_py
 magangros_generate_messages_py: /home/hamasfa/Magang3_ws/devel/lib/python3/dist-packages/magangros/msg/_PosisiTurtle.py
-magangros_generate_messages_py: /home/hamasfa/Magang3_ws/devel/lib/python3/dist-packages/magangros/msg/_PosisiTurtleAwal.py
 magangros_generate_messages_py: /home/hamasfa/Magang3_ws/devel/lib/python3/dist-packages/magangros/msg/__init__.py
 magangros_generate_messages_py: magangros/CMakeFiles/magangros_generate_messages_py.dir/build.make
 
