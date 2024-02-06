@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/hamasfa/Magang3_ws/devel/share/common-lisp/ros/magangros/msg/PosisiTurtle.lisp"
+  "../devel/share/common-lisp/ros/magangros/msg/PosisiTurtle.lisp"
   "CMakeFiles/magangros_generate_messages_lisp"
 )
 

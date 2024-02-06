@@ -68,13 +68,13 @@ set(magangros_CONFIG_INCLUDED TRUE)
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
   set(magangros_SOURCE_PREFIX /home/hamasfa/Magang3_ws/src/magangros)
-  set(magangros_DEVEL_PREFIX /home/hamasfa/Magang3_ws/devel)
+  set(magangros_DEVEL_PREFIX /home/hamasfa/Magang3_ws/build/devel)
   set(magangros_INSTALL_PREFIX "")
   set(magangros_PREFIX ${magangros_DEVEL_PREFIX})
 else()
   set(magangros_SOURCE_PREFIX "")
   set(magangros_DEVEL_PREFIX "")
-  set(magangros_INSTALL_PREFIX /home/hamasfa/Magang3_ws/install)
+  set(magangros_INSTALL_PREFIX /usr/local)
   set(magangros_PREFIX ${magangros_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/hamasfa/Magang3_ws/install/lib;/home/hamasfa/Magang3_ws/devel/lib;/home/hamasfa/cobaROS_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /usr/local/lib;/home/hamasfa/Magang3_ws/devel/lib;/home/hamasfa/cobaROS_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

@@ -1,4 +1,4 @@
-prefix=/home/hamasfa/Magang3_ws/install
+prefix=/usr/local
 
 Name: magangros
 Description: Description of magangros

@@ -6,22 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/hamasfa/Magang3_ws/devel/include/magangros/PosisiTurtle.h
-string
--
-vector
--
-memory
--
-ros/types.h
--
-ros/serialization.h
--
-ros/builtin_message_traits.h
--
-ros/message_operations.h
--
-
 /home/hamasfa/Magang3_ws/src/magangros/src/primary.cpp
 ros/ros.h
 /home/hamasfa/Magang3_ws/src/magangros/src/ros/ros.h

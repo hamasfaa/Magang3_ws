@@ -6,22 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/hamasfa/Magang3_ws/devel/include/magangros/PosisiTurtle.h
-string
--
-vector
--
-memory
--
-ros/types.h
--
-ros/serialization.h
--
-ros/builtin_message_traits.h
--
-ros/message_operations.h
--
-
 /home/hamasfa/Magang3_ws/src/magangros/src/secondary.cpp
 opencv2/opencv.hpp
 -
@@ -1781,4 +1765,20 @@ opencv2/imgproc.hpp
 /usr/local/include/opencv4/opencv2/videoio.hpp
 opencv2/core.hpp
 /usr/local/include/opencv4/opencv2/opencv2/core.hpp
+
+devel/include/magangros/PosisiTurtle.h
+string
+-
+vector
+-
+memory
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
 

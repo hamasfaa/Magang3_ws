@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/hamasfa/Magang3_ws/devel/lib/magangros/secondary_node"
-  "/home/hamasfa/Magang3_ws/devel/lib/magangros/secondary_node.pdb"
+  "../devel/lib/magangros/secondary_node"
+  "../devel/lib/magangros/secondary_node.pdb"
   "CMakeFiles/secondary_node.dir/src/secondary.cpp.o"
 )
 

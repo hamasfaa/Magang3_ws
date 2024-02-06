@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/hamasfa/Magang3_ws/devel/include/magangros/PosisiTurtle.h"
+  "../devel/include/magangros/PosisiTurtle.h"
   "CMakeFiles/magangros_generate_messages_cpp"
 )
 

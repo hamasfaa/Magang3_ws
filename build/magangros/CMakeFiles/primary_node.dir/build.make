@@ -60,15 +60,15 @@ include magangros/CMakeFiles/primary_node.dir/flags.make
 magangros/CMakeFiles/primary_node.dir/src/primary.cpp.o: magangros/CMakeFiles/primary_node.dir/flags.make
 magangros/CMakeFiles/primary_node.dir/src/primary.cpp.o: /home/hamasfa/Magang3_ws/src/magangros/src/primary.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hamasfa/Magang3_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object magangros/CMakeFiles/primary_node.dir/src/primary.cpp.o"
-	cd /home/hamasfa/Magang3_ws/build/magangros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/primary_node.dir/src/primary.cpp.o -c /home/hamasfa/Magang3_ws/src/magangros/src/primary.cpp
+	cd /home/hamasfa/Magang3_ws/build/magangros && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/primary_node.dir/src/primary.cpp.o -c /home/hamasfa/Magang3_ws/src/magangros/src/primary.cpp
 
 magangros/CMakeFiles/primary_node.dir/src/primary.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/primary_node.dir/src/primary.cpp.i"
-	cd /home/hamasfa/Magang3_ws/build/magangros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hamasfa/Magang3_ws/src/magangros/src/primary.cpp > CMakeFiles/primary_node.dir/src/primary.cpp.i
+	cd /home/hamasfa/Magang3_ws/build/magangros && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hamasfa/Magang3_ws/src/magangros/src/primary.cpp > CMakeFiles/primary_node.dir/src/primary.cpp.i
 
 magangros/CMakeFiles/primary_node.dir/src/primary.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/primary_node.dir/src/primary.cpp.s"
-	cd /home/hamasfa/Magang3_ws/build/magangros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hamasfa/Magang3_ws/src/magangros/src/primary.cpp -o CMakeFiles/primary_node.dir/src/primary.cpp.s
+	cd /home/hamasfa/Magang3_ws/build/magangros && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hamasfa/Magang3_ws/src/magangros/src/primary.cpp -o CMakeFiles/primary_node.dir/src/primary.cpp.s
 
 # Object files for target primary_node
 primary_node_OBJECTS = \
@@ -77,31 +77,31 @@ primary_node_OBJECTS = \
 # External object files for target primary_node
 primary_node_EXTERNAL_OBJECTS =
 
-/home/hamasfa/Magang3_ws/devel/lib/magangros/primary_node: magangros/CMakeFiles/primary_node.dir/src/primary.cpp.o
-/home/hamasfa/Magang3_ws/devel/lib/magangros/primary_node: magangros/CMakeFiles/primary_node.dir/build.make
-/home/hamasfa/Magang3_ws/devel/lib/magangros/primary_node: /opt/ros/noetic/lib/libroscpp.so
-/home/hamasfa/Magang3_ws/devel/lib/magangros/primary_node: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/hamasfa/Magang3_ws/devel/lib/magangros/primary_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/home/hamasfa/Magang3_ws/devel/lib/magangros/primary_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/hamasfa/Magang3_ws/devel/lib/magangros/primary_node: /opt/ros/noetic/lib/librosconsole.so
-/home/hamasfa/Magang3_ws/devel/lib/magangros/primary_node: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/hamasfa/Magang3_ws/devel/lib/magangros/primary_node: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/hamasfa/Magang3_ws/devel/lib/magangros/primary_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/hamasfa/Magang3_ws/devel/lib/magangros/primary_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/home/hamasfa/Magang3_ws/devel/lib/magangros/primary_node: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/hamasfa/Magang3_ws/devel/lib/magangros/primary_node: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/hamasfa/Magang3_ws/devel/lib/magangros/primary_node: /opt/ros/noetic/lib/librostime.so
-/home/hamasfa/Magang3_ws/devel/lib/magangros/primary_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/hamasfa/Magang3_ws/devel/lib/magangros/primary_node: /opt/ros/noetic/lib/libcpp_common.so
-/home/hamasfa/Magang3_ws/devel/lib/magangros/primary_node: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/home/hamasfa/Magang3_ws/devel/lib/magangros/primary_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/hamasfa/Magang3_ws/devel/lib/magangros/primary_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/hamasfa/Magang3_ws/devel/lib/magangros/primary_node: magangros/CMakeFiles/primary_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hamasfa/Magang3_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/hamasfa/Magang3_ws/devel/lib/magangros/primary_node"
+devel/lib/magangros/primary_node: magangros/CMakeFiles/primary_node.dir/src/primary.cpp.o
+devel/lib/magangros/primary_node: magangros/CMakeFiles/primary_node.dir/build.make
+devel/lib/magangros/primary_node: /opt/ros/noetic/lib/libroscpp.so
+devel/lib/magangros/primary_node: /usr/lib/x86_64-linux-gnu/libpthread.so
+devel/lib/magangros/primary_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+devel/lib/magangros/primary_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+devel/lib/magangros/primary_node: /opt/ros/noetic/lib/librosconsole.so
+devel/lib/magangros/primary_node: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+devel/lib/magangros/primary_node: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+devel/lib/magangros/primary_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+devel/lib/magangros/primary_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+devel/lib/magangros/primary_node: /opt/ros/noetic/lib/libxmlrpcpp.so
+devel/lib/magangros/primary_node: /opt/ros/noetic/lib/libroscpp_serialization.so
+devel/lib/magangros/primary_node: /opt/ros/noetic/lib/librostime.so
+devel/lib/magangros/primary_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+devel/lib/magangros/primary_node: /opt/ros/noetic/lib/libcpp_common.so
+devel/lib/magangros/primary_node: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+devel/lib/magangros/primary_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+devel/lib/magangros/primary_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+devel/lib/magangros/primary_node: magangros/CMakeFiles/primary_node.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hamasfa/Magang3_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../devel/lib/magangros/primary_node"
 	cd /home/hamasfa/Magang3_ws/build/magangros && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/primary_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-magangros/CMakeFiles/primary_node.dir/build: /home/hamasfa/Magang3_ws/devel/lib/magangros/primary_node
+magangros/CMakeFiles/primary_node.dir/build: devel/lib/magangros/primary_node
 
 .PHONY : magangros/CMakeFiles/primary_node.dir/build
 

@@ -53,22 +53,22 @@ CMAKE_BINARY_DIR = /home/hamasfa/Magang3_ws/build
 # Include the progress variables for this target.
 include magangros/CMakeFiles/magangros_generate_messages_eus.dir/progress.make
 
-magangros/CMakeFiles/magangros_generate_messages_eus: /home/hamasfa/Magang3_ws/devel/share/roseus/ros/magangros/msg/PosisiTurtle.l
-magangros/CMakeFiles/magangros_generate_messages_eus: /home/hamasfa/Magang3_ws/devel/share/roseus/ros/magangros/manifest.l
+magangros/CMakeFiles/magangros_generate_messages_eus: devel/share/roseus/ros/magangros/msg/PosisiTurtle.l
+magangros/CMakeFiles/magangros_generate_messages_eus: devel/share/roseus/ros/magangros/manifest.l
 
 
-/home/hamasfa/Magang3_ws/devel/share/roseus/ros/magangros/msg/PosisiTurtle.l: /opt/ros/noetic/lib/geneus/gen_eus.py
-/home/hamasfa/Magang3_ws/devel/share/roseus/ros/magangros/msg/PosisiTurtle.l: /home/hamasfa/Magang3_ws/src/magangros/msg/PosisiTurtle.msg
+devel/share/roseus/ros/magangros/msg/PosisiTurtle.l: /opt/ros/noetic/lib/geneus/gen_eus.py
+devel/share/roseus/ros/magangros/msg/PosisiTurtle.l: /home/hamasfa/Magang3_ws/src/magangros/msg/PosisiTurtle.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hamasfa/Magang3_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from magangros/PosisiTurtle.msg"
-	cd /home/hamasfa/Magang3_ws/build/magangros && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/hamasfa/Magang3_ws/src/magangros/msg/PosisiTurtle.msg -Imagangros:/home/hamasfa/Magang3_ws/src/magangros/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p magangros -o /home/hamasfa/Magang3_ws/devel/share/roseus/ros/magangros/msg
+	cd /home/hamasfa/Magang3_ws/build/magangros && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/hamasfa/Magang3_ws/src/magangros/msg/PosisiTurtle.msg -Imagangros:/home/hamasfa/Magang3_ws/src/magangros/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p magangros -o /home/hamasfa/Magang3_ws/build/devel/share/roseus/ros/magangros/msg
 
-/home/hamasfa/Magang3_ws/devel/share/roseus/ros/magangros/manifest.l: /opt/ros/noetic/lib/geneus/gen_eus.py
+devel/share/roseus/ros/magangros/manifest.l: /opt/ros/noetic/lib/geneus/gen_eus.py
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hamasfa/Magang3_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp manifest code for magangros"
-	cd /home/hamasfa/Magang3_ws/build/magangros && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/hamasfa/Magang3_ws/devel/share/roseus/ros/magangros magangros std_msgs
+	cd /home/hamasfa/Magang3_ws/build/magangros && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/hamasfa/Magang3_ws/build/devel/share/roseus/ros/magangros magangros std_msgs
 
 magangros_generate_messages_eus: magangros/CMakeFiles/magangros_generate_messages_eus
-magangros_generate_messages_eus: /home/hamasfa/Magang3_ws/devel/share/roseus/ros/magangros/msg/PosisiTurtle.l
-magangros_generate_messages_eus: /home/hamasfa/Magang3_ws/devel/share/roseus/ros/magangros/manifest.l
+magangros_generate_messages_eus: devel/share/roseus/ros/magangros/msg/PosisiTurtle.l
+magangros_generate_messages_eus: devel/share/roseus/ros/magangros/manifest.l
 magangros_generate_messages_eus: magangros/CMakeFiles/magangros_generate_messages_eus.dir/build.make
 
 .PHONY : magangros_generate_messages_eus

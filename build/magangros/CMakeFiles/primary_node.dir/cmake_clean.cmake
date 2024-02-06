@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/hamasfa/Magang3_ws/devel/lib/magangros/primary_node"
-  "/home/hamasfa/Magang3_ws/devel/lib/magangros/primary_node.pdb"
+  "../devel/lib/magangros/primary_node"
+  "../devel/lib/magangros/primary_node.pdb"
   "CMakeFiles/primary_node.dir/src/primary.cpp.o"
 )
 

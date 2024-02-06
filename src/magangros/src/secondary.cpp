@@ -30,16 +30,15 @@ int main(int argc, char **argv) {
 
         ros::spinOnce();
 
-        if (posisiTurtle.size() > 1) {
+         if (posisiTurtle.size() > 1) {
             Rect area = boundingRect(contours[0]);
             Rect area2 = boundingRect(contours[1]);
             for (int i = 1; i < posisiTurtle.size(); i++) {
-                Point titik1 (posisiTurtle[i-1][0] * 45.0, img.rows - posisiTurtle[i-1][1] * 45.0);
-                Point titik2 (posisiTurtle[i][0] * 45.0, img.rows - posisiTurtle[i][1] * 45.0);
-                if(titik1.inside(area) || titik2.inside(area) || titik1.inside(area2) || titik2.inside(area2)){
+                Point titik (posisiTurtle[i][0] * 45.0, img.rows - posisiTurtle[i][1] * 45.0);
+                if( titik.inside(area) ||  titik.inside(area)){
                     continue;
                 } else{
-                    line(img, titik1, titik2, Scalar(0, 0, 255), 2);
+                    circle(img, titik, 3, Scalar(0, 0, 255), 2);
                 }
             }
         }

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/hamasfa/Magang3_ws/devel/share/roseus/ros/magangros/manifest.l"
-  "/home/hamasfa/Magang3_ws/devel/share/roseus/ros/magangros/msg/PosisiTurtle.l"
+  "../devel/share/roseus/ros/magangros/manifest.l"
+  "../devel/share/roseus/ros/magangros/msg/PosisiTurtle.l"
   "CMakeFiles/magangros_generate_messages_eus"
 )
 

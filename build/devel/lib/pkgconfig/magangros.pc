@@ -1,0 +1,8 @@
+prefix=/home/hamasfa/Magang3_ws/build/devel
+
+Name: magangros
+Description: Description of magangros
+Version: 0.0.0
+Cflags: -I/home/hamasfa/Magang3_ws/build/devel/include
+Libs: -L${prefix}/lib 
+Requires: 
