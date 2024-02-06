@@ -35,7 +35,7 @@ int main(int argc, char **argv) {
             Rect area2 = boundingRect(contours[1]);
             for (int i = 1; i < posisiTurtle.size(); i++) {
                 Point titik (posisiTurtle[i][0] * 45.0, img.rows - posisiTurtle[i][1] * 45.0);
-                if( titik.inside(area) ||  titik.inside(area)){
+                if( titik.inside(area) ||  titik.inside(area2)){
                     continue;
                 } else{
                     circle(img, titik, 3, Scalar(0, 0, 255), 2);
